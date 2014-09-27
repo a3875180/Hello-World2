@@ -11,4 +11,9 @@ public class MainTest extends TestCase {
 	public void test(){
 		assertThat(new Main().test(), is("test"));
 	}
+
+	@Test
+	public void test2(){
+		assertThat(new Main().test(), is("test"));
+	}
 }
